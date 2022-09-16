@@ -1,14 +1,15 @@
-const { Header } from './components/Header'
-const { Post } from './components/Post'
-const { Sidebar } from './components/Sidebar'
+import { Header } from './components/Header'
+import { Post } from './components/Post'
+import { Sidebar } from './components/Sidebar'
 
+import styles from './App.module.css'
 import './global.css'
 
 const posts = [
   {
     id: 1,
     author: {
-      avatarUrl: 'https://github.com/.png',
+      avatarUrl: 'https://randomuser.me/api/portraits/women/19.jpg',
       name: 'Julio Henrique',
       role: 'React Developer',
     },
@@ -22,7 +23,7 @@ const posts = [
   {
     id: 2,
     author: {
-      avatarUrl: 'https://github.com/.png',
+      avatarUrl: 'https://randomuser.me/api/portraits/women/25.jpg',
       name: 'Henrique Julio',
       role: 'Java Developer',
     },
