@@ -16,7 +16,7 @@ const posts = [
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu github, foi o meu primeiro projeto relacionado a àrea da saúde, e se chama DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'link', content: 'julio.dev/streaming' },
     ],
     publishedAt: new Date('2022-08-20 12:00:00'),
   },
@@ -30,7 +30,7 @@ const posts = [
     content: [
       { type: 'paragraph', content: 'Fala galera 👋' },
       { type: 'paragraph', content: 'Acabei de subir mais um projeto no meu github, foi o meu primeiro projeto relacionado a àrea da saúde, e se chama DoctorCare 🚀' },
-      { type: 'link', content: 'jane.design/doctorcare' },
+      { type: 'link', content: 'julio.dev/streaming' },
     ],
     publishedAt: new Date('2022-08-29 12:00:00'),
   },
